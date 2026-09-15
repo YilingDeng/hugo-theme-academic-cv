@@ -1,28 +1,28 @@
 ---
-title: Courses
-summary: My courses
+title: 教学课程
+summary: 本科与研究生课程
 type: landing
 
-cascade:
-  - target:
-      path: '{/courses/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: true
-
 sections:
-  - block: collection
-    id: courses
+  - block: markdown
+    id: undergraduate
     content:
-      title: Courses
-      filters:
-        tag: Course
-        kinds:
-          - section
+      title: '🎓 本科课程'
+      subtitle: ''
+      text: |-
+        1. **城乡道路与交通规划设计**
+        2. **城市规划系统工程学**
+        3. **城乡社会综合调查研究**
     design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
+      columns: '1'
+  - block: markdown
+    id: graduate
+    content:
+      title: '🎓 研究生课程'
+      subtitle: ''
+      text: |-
+        1. **城乡交通与基础设施规划**
+        2. **城乡规划系统工程学**
+    design:
+      columns: '1'
 ---

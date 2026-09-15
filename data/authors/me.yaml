@@ -2,115 +2,89 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: 邓一凌
+  given: 一凌
+  family: 邓
+  alternate: Yiling Deng
+  pronunciation: ''
+  pronouns: ''
 postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  - 博士
+  - 教授
+  - 博士生导师
+role: 设计与建筑学院党委委员、城乡规划系副主任
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  邓一凌，浙江工业大学教授、博导，设计与建筑学院党委委员、城乡规划系副主任，国家注册城乡规划师。
+  入选浙江省高校领军人才培养计划、浙江工业大学“十四五”高层次人才培育计划。
+
+  兼任中国技术经济学会低碳智慧城市专委会委员、中国城市科学研究会韧性城市专委会委员、
+  浙江省发改委妇儿工委儿童友好城市建设专家、浙江省国土空间规划学会专家库专家及交通与工程规划专委会委员。
+
+  东南大学交通运输工程专业博士，多伦多大学、北京大学公派访问学者。主要从事交通行为、规划与政策研究。
+  主持国家自然科学基金 2 项、浙江省哲学社会科学规划课题 2 项，参与国家级课题 2 项。
+  第一或通讯作者发表国内外高水平期刊论文 40 余篇，出版专著 1 部，参编教材 5 部。
+
+  第一完成人获浙江省哲学社会科学优秀成果奖青年奖、钱学森城市学金奖提名奖及 2 项国际竞赛一等奖。
+  资政建言获浙江省和杭州市主要领导肯定性批示 4 项。
+  2015—2017 年间任银川市贺兰县政府副县长（挂职），分管城乡规划与交通运输工作，支援东西部扶贫协作。
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 浙江工业大学 设计与建筑学院
+    url: https://homepage.zjut.edu.cn/dyl2/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: mailto:yiling@zjut.edu.cn
+    label: 电子邮箱
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0002-6245-0352
+    label: ORCID
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=VEuQqTQAAAAJ&hl=en
+    label: Google Scholar
+  - icon: hero/document-text
+    url: https://au.cnki.net/author/personalInfo/000066222868
+    label: 中国知网
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - 基于混合方法的出行行为分析
+  - 数据驱动的交通规划
+  - 通勤行为与幸福感
+  - 城市步行与骑行性
+  - 无障碍环境建设
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: 工学博士 交通运输工程
+    institution: 东南大学
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      获交通运输工程专业博士学位。
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: 教授、博士生导师、城乡规划系副主任
+    org: 浙江工业大学 设计与建筑学院
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      设计与建筑学院党委委员、城乡规划系副主任，国家注册城乡规划师。
+      入选浙江省高校领军人才培养计划、浙江工业大学“十四五”高层次人才培育计划。
+  - role: 公派访问学者
+    org: 多伦多大学
+  - role: 公派访问学者
+    org: 北京大学
+  - role: 副县长（挂职）
+    org: 银川市贺兰县人民政府
+    start: 2015-01-01
+    end: 2017-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+      分管城乡规划与交通运输工作，支援东西部扶贫协作。
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: 浙江省哲学社会科学优秀成果奖青年奖
+    awarder: 浙江省人民政府
+    summary: 专著《城市步行性理论、实证与应用》，第一完成人。
+    icon: hero/trophy
+  - title: 钱学森城市学金奖提名奖
+    awarder: 钱学森城市学金奖评选委员会
+    summary: 专著《城市步行性理论、实证与应用》，第一完成人。
+    icon: hero/trophy
+  - title: 国际竞赛一等奖（2 项）
+    summary: 第一完成人。
     icon: hero/trophy

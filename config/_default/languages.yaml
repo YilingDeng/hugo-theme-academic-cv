@@ -3,20 +3,16 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
-en:
-  locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+zh:
+  locale: zh-Hans
+  title: 邓一凌 | 浙江工业大学
+  params:
+    description: 浙江工业大学设计与建筑学院教授、博士生导师，从事交通行为、规划与政策研究。
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
+#en:
+#  locale: en-us
+#  contentDir: content/en
+#  title: Yiling Deng | Zhejiang University of Technology
 #  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+#    description: Professor at Zhejiang University of Technology working on travel behaviour, planning and policy.

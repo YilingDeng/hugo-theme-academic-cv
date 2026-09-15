@@ -13,19 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "邓一凌"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "浙江工业大学 设计与建筑学院"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "交通行为、规划与政策"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "邓一凌，浙江工业大学设计与建筑学院教授、博士生导师、城乡规划系副主任，国家注册城乡规划师。从事交通行为、规划与政策研究，聚焦出行行为分析、城市步行与骑行性、无障碍环境建设。"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
